@@ -90,4 +90,4 @@ if plot:
                                 zoom=5, size_max=40, mapbox_style="carto-positron",
                                 hover_name='District', color_continuous_scale='Plasma')
 
-    st.plotly_chart(fig, use_container_width=True,theme=None)
+    st.plotly_chart(fig, use_container_width=True)

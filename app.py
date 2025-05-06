@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="BharatVerse | India's Data Universe", layout='wide')
 
 # Load data
-df = pd.read_csv('/Users/macos/Downloads/India Data/india.csv')
+df = pd.read_csv('india.csv')
 list_of_states = list(df['State'].unique())
 list_of_states.insert(0, 'Overall India')
 
